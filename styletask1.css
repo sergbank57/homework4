@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .block div{
+   position: absolute;
+   width: 77px;
+   height: 77px;
+  }
+  .block1{
+   border: 1px solid rgb(192, 23, 23);
+   left: 50px;
+   top: 50px; 
+  }
+  .block2{
+   border: 1px solid rgb(48, 23, 192);
+   left: 150px;
+   top: 150px; 
+}
+.block3{
+   border: 1px solid rgb(37, 192, 23);
+   left: 250px;
+   top: 250px; 
+}

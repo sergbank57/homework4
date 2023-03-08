@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .block1{
+   border: 1px solid rgb(192, 23, 23);
+   width: 555px;
+   height: 444px;
+   background-color: blueviolet;
+   
+   position: relative;
+   margin: 8px auto;
+}
+  .block2{
+    border: 1px solid;
+    width: 111px;
+   height: 111px;
+   position: absolute;
+   left: 55px;
+   top: 55px;
+   background-color: white;
+    }
+ .block3{
+    border: 1px solid;
+    width: 111px;
+   height: 111px;
+   position: absolute;
+   right: 55px;
+   bottom: 55px;
+   background-color: white;
+    }

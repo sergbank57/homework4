@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .block div{
+    position: relative;
+   width: 88px;
+   height: 88px;
+   border-radius: 50%;
+   margin: 5px;
+   
+  }
+  .block{
+    border: 1px solid rgb(2, 12, 1);
+    width: 177px;
+    height: 377px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    justify-content:  center;
+  }
+  .block1{
+    border: 1px solid rgb(2, 12, 1);
+   order: 1;
+   background-color: rgb(238, 28, 28);
+  
+  }
+  .block2{
+    border: 1px solid rgb(2, 12, 1);
+    order: 2;
+   background-color: yellow;
+}
+.block3{
+   order: 3;
+   border: 1px solid rgb(2, 12, 1);
+   background-color:rgb(20, 147, 9) ;
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /*.block div{
+   position: absolute;
+   width: 77px;
+   height: 77px;
+  }*/
+  .block1{
+   border: 1px solid rgb(192, 23, 23);
+   width: 555px;
+   height: 444px;
+   
+   position: relative;
+   margin: 8px auto;
+  justify-content: center;
+   /*left: 50px;
+   top: 50px; */
+ 
+   
+   z-index: 2;
+   
+  }
+  .block2{
+    border: 1px solid rgb(48, 23, 192);
+    width: 111px;
+   height: 111px;
+   position: absolute;
+   left: 111px;
+   top: 111px;
+    
+ }
+/*.block3{
+   border: 1px solid rgb(37, 192, 23);
+   left: 148px;
+   top: 148px; 
+   background-color:rgb(37, 192, 23) ;
+  
+}*/

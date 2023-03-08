@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#fixed{
+	
+	position: fixed;
+	left: 0px;
+	top: 0px; 
+	width: 100%;
+	height: 55px;
+	background-color: #a3b432;
+	text-align: center;
+	line-height: 50px;
+	font-size: 33px;
+	color: rgb(121, 13, 13);
+	border-top: 1px solid #32b443;
+}
+#text{
+	width: 666px;
+	margin: 77px auto 33px auto;
+	padding: 22px;
+	border: 1px solid #32b464;
+	
+}
+h1{margin: 15px; color: #B43273}
